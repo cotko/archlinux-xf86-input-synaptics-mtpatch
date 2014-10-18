@@ -1,6 +1,6 @@
---- xf86-input-synaptics-1.8.0/src/synaptics.c	2014-05-13 03:17:46.000000000 +0200
-+++ xf86-input-synaptics-1.8.0-patched/src/synaptics.c	2014-08-16 15:47:08.675180274 +0200
-@@ -2965,11 +2965,11 @@
+--- xf86-input-synaptics-1.8.1/src/synaptics.c	2014-09-17 23:39:51.000000000 +0200
++++ xf86-input-synaptics-1.8.1-patched/src/synaptics.c	2014-10-18 18:46:11.388705530 +0200
+@@ -2982,11 +2982,11 @@
      Bool restart_touches = FALSE;
      int i;
  
