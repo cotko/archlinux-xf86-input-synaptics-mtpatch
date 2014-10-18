@@ -2,7 +2,7 @@
 # Original by: Jan Frederick Eick <j.f.eick@gmx.de>
 
 pkgname=xf86-input-synaptics-mtpatch
-pkgver=1.8.0
+pkgver=1.8.1
 pkgrel=1
 pkgdesc="Synaptics driver for notebook touchpads patched for pass through of multitouch events"
 arch=('i686' 'x86_64')
@@ -20,7 +20,7 @@ backup=('etc/X11/xorg.conf.d/10-synaptics.conf')
 source=(http://xorg.freedesktop.org/releases/individual/driver/xf86-input-synaptics-${pkgver}.tar.bz2
         https://raw.githubusercontent.com/cotko/archlinux-xf86-input-synaptics-mtpatch/master/send_multitouch_events.patch
         https://raw.githubusercontent.com/cotko/archlinux-xf86-input-synaptics-mtpatch/master/10-synaptics.conf)
-sha256sums=('9bf27632aaa6c5e62621ca9c2ca00f9b309c85b039ee33cd592b189fc872c37a'
+sha256sums=('d74fdaf29e9888a2cb494e16d0a9ddb24265c5c765b05392b69c50e84ffbf09a'
             'c4083e6006e2a54d2b7d0dacc028ee6e8d786d6c2b071c6b9e30d863639ca8f0'
 	    '6d61b3f73db8e5b34d8e461c992280c18b9f11b7d2ee2f336df2ce1d7a4be8d6'
             )
