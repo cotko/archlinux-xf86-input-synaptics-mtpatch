@@ -1,16 +1,16 @@
---- xf86-input-synaptics-1.8.1/src/synaptics.c	2014-09-17 23:39:51.000000000 +0200
-+++ xf86-input-synaptics-1.8.1-patched/src/synaptics.c	2014-10-18 18:46:11.388705530 +0200
-@@ -2982,11 +2982,11 @@
+--- xf86-input-synaptics-1.8.3/src/synaptics.c	2015-10-28 05:20:36.000000000 +0100
++++ xf86-input-synaptics-1.8.3-patched/src/synaptics.c	2015-11-25 11:29:00.946272763 +0100
+@@ -2979,11 +2979,12 @@
      Bool restart_touches = FALSE;
      int i;
  
 -    if (para->click_action[F3_CLICK1] || para->tap_action[F3_TAP])
-+    /*if (para->click_action[F3_CLICK1] || para->tap_action[F3_TAP])
++    /* if (para->click_action[F3_CLICK1] || para->tap_action[F3_TAP])
          min_touches = 4;
      else if (para->click_action[F2_CLICK1] || para->tap_action[F2_TAP] ||
               para->scroll_twofinger_vert || para->scroll_twofinger_horiz)
--        min_touches = 3;
-+        min_touches = 3;*/
+         min_touches = 3;
++    */
  
      /* Count new number of active touches */
      for (i = 0; i < hw->num_mt_mask; i++) {
